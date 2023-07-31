@@ -23,16 +23,17 @@ I.e: *****,
 
 
 driver = webdriver.Chrome()
-driver.get("https://jss.corp.creditkarma.com/")
+#Change to companys Jamf URL
+driver.get("url-to-jamf")
 wait = WebDriverWait(driver, 30)
 
 
 
 def login(): #Navigate through login
 	
-
-	user = wait.until(EC.presence_of_element_located((By.ID, "input28"))).send_keys("kyle.chun")
-	
+	#input your user
+	user = wait.until(EC.presence_of_element_located((By.ID, "input28"))).send_keys("")
+	#input your pass
 	pass_word = wait.until(EC.presence_of_element_located((By.ID, "input36"))).send_keys("")
 
 
