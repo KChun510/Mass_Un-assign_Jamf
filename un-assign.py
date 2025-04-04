@@ -62,7 +62,7 @@ def navigate():
 
 
 	#DEP_US = driver.find_element(By.XPATH, "//a[@href='computerEnrollmentPrestage.html?id=1&o=r']")
-	driver.get("https://jss.corp.creditkarma.com/computerEnrollmentPrestage.html?id=1&o=r")
+	driver.get("")
 
 
 
